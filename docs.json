@@ -1,80 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "漫无目的",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF6B6B",
+    "light": "#FFB86C",
+    "dark": "#1A1A2E"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -82,21 +14,146 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "GitHub",
+        "href": "https://github.com/lixw1994"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/lixw1994"
     }
+  },
+  "topbarLinks": [
+    {
+      "label": "关于",
+      "href": "/about"
+    }
+  ],
+  "topbarCtaButton": {
+    "label": "随机",
+    "href": "/random"
+  },
+  "anchors": [
+    {
+      "label": "技术",
+      "icon": "code-square",
+      "href": "/tech"
+    },
+    {
+      "label": "AIGC",
+      "icon": "sparkles",
+      "href": "/aigc"
+    },
+    {
+      "label": "生活",
+      "icon": "book",
+      "href": "/life"
+    }
+  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "开始",
+        "pages": ["introduction", "about"]
+      },
+      {
+        "group": "技术思考",
+        "pages": [
+          {
+            "group": "架构设计",
+            "pages": [
+              "tech/architecture/design",
+              "tech/architecture/patterns",
+              "tech/architecture/scalability"
+            ]
+          },
+          {
+            "group": "工程实践",
+            "pages": [
+              "tech/engineering/practices",
+              "tech/engineering/principles",
+              "tech/engineering/tools"
+            ]
+          },
+          {
+            "group": "创新思维",
+            "pages": [
+              "tech/innovation/thinking",
+              "tech/innovation/trends",
+              "tech/innovation/cases"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "AIGC 探索",
+        "pages": [
+          {
+            "group": "模型研究",
+            "pages": [
+              "aigc/models/llm",
+              "aigc/models/diffusion",
+              "aigc/models/multimodal"
+            ]
+          },
+          {
+            "group": "应用实践",
+            "pages": [
+              "aigc/applications/coding",
+              "aigc/applications/design",
+              "aigc/applications/content"
+            ]
+          },
+          {
+            "group": "前沿动态",
+            "pages": [
+              "aigc/research/papers",
+              "aigc/research/trends",
+              "aigc/research/tools"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "生活随笔",
+        "pages": [
+          {
+            "group": "阅读",
+            "pages": [
+              "life/reading/books",
+              "life/reading/articles"
+            ]
+          },
+          {
+            "group": "思考",
+            "pages": [
+              "life/thinking/tech",
+              "life/thinking/innovation",
+              "life/thinking/life"
+            ]
+          },
+          {
+            "group": "观影",
+            "pages": [
+              "life/watching/movies",
+              "life/watching/series"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footerSocials": {
+    "github": "https://github.com/lixw1994"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    }
+  },
+  "theme": "mint",
+  "modeToggle": {
+    "default": "dark"
   }
 }

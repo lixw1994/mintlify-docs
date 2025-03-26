@@ -1,71 +1,134 @@
 ---
-title: Introduction
-description: "Welcome to the home of your new documentation"
+title: '漫无目的'
+description: '一个关于技术、AIGC与生活的个人空间'
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.png"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.png"
-  alt="Hero Dark"
-/>
+<div className="relative overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-br from-[#FF6B6B15] via-[#4ECDC415] to-[#2BAE6615] dark:from-[#FF6B6B10] dark:via-[#4ECDC410] dark:to-[#2BAE6610]" />
+  
+  <div className="relative px-6 py-12 text-center">
+    <h1 className="text-5xl font-bold bg-gradient-to-r from-[#FF6B6B] via-[#4ECDC4] to-[#2BAE66] bg-clip-text text-transparent mb-6">
+      漫无目的
+    </h1>
+    <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+      探索技术与创新的无限可能
+    </p>
+  </div>
+</div>
 
-## Setting up
+<div className="mt-8 prose dark:prose-invert max-w-none">
+  <div className="p-6 rounded-lg bg-gradient-to-br from-[#FF6B6B20] to-[#4ECDC420] backdrop-blur">
+    有时候，最美好的事物往往发生在计划之外。
+    
+    这里是一个不设限的空间，记录着我在技术探索、AI 创新和生活感悟中的点点滴滴。相信技术能改变世界，AI 能创造价值，生活因思考而美好。
+  </div>
+</div>
 
-The first step to world-class documentation is setting up your editing environments.
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+  <div className="p-6 rounded-lg bg-gradient-to-br from-[#FF6B6B20] to-[#4ECDC420] backdrop-blur">
+    <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#FF6B6B] to-[#FFB86C] bg-clip-text text-transparent">
+      技术思考
+    </h3>
+    <p className="text-gray-600 dark:text-gray-300">
+      作为一名软件工程师，这里记录我对架构设计、工程实践和技术创新的思考。不仅仅是代码，更多的是对技术本质的探索和理解。
+    </p>
+  </div>
+
+  <div className="p-6 rounded-lg bg-gradient-to-br from-[#4ECDC420] to-[#2BAE6620] backdrop-blur">
+    <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#4ECDC4] to-[#2BAE66] bg-clip-text text-transparent">
+      AIGC 探索
+    </h3>
+    <p className="text-gray-600 dark:text-gray-300">
+      探索 AI 生成内容的无限可能，研究大语言模型、扩散模型等前沿技术，思考 AI 如何改变我们的工作和生活方式。
+    </p>
+  </div>
+
+  <div className="p-6 rounded-lg bg-gradient-to-br from-[#FFB86C20] to-[#FF6B6B20] backdrop-blur">
+    <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#FFB86C] to-[#FF6B6B] bg-clip-text text-transparent">
+      生活随笔
+    </h3>
+    <p className="text-gray-600 dark:text-gray-300">
+      生活中的所思所想，读过的书，看过的电影，或者只是某个瞬间的感触。记录下来，让时光有迹可循。
+    </p>
+  </div>
+</div>
+
+## 最近更新
 
 <CardGroup cols={2}>
   <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
+    title="分布式系统设计模式"
+    icon="diagram-project"
+    href="/tech/architecture/patterns"
   >
-    Get your docs set up locally for easy development
+    探索构建可靠分布式系统的核心模式。
   </Card>
   <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
+    title="LLM 应用实践"
+    icon="sparkles"
+    href="/aigc/applications/coding"
   >
-    Preview your changes before you push to make sure they're perfect
+    大语言模型在软件开发中的应用探索。
+  </Card>
+  <Card
+    title="AI 研究前沿"
+    icon="microscope"
+    href="/aigc/research/trends"
+  >
+    追踪 AI 领域的最新突破与趋势。
+  </Card>
+  <Card
+    title="工程效能提升"
+    icon="rocket"
+    href="/tech/engineering/practices"
+  >
+    关于如何提升研发团队效能的思考。
   </Card>
 </CardGroup>
 
-## Make it yours
+## 此刻
 
-Update your docs to your brand and add valuable content for the best user conversion.
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+  <div className="p-4 rounded-lg border border-[#FF6B6B30] dark:border-[#FF6B6B20]">
+    <h3 className="font-bold text-[#FF6B6B] mb-2">正在阅读</h3>
+    <p className="text-gray-600 dark:text-gray-300">《禅与摩托车维修艺术》- 关于价值、技术与创新的思考</p>
+  </div>
+  
+  <div className="p-4 rounded-lg border border-[#4ECDC430] dark:border-[#4ECDC420]">
+    <h3 className="font-bold text-[#4ECDC4] mb-2">正在学习</h3>
+    <p className="text-gray-600 dark:text-gray-300">分布式系统设计 & LLM 应用开发</p>
+  </div>
+  
+  <div className="p-4 rounded-lg border border-[#FFB86C30] dark:border-[#FFB86C20]">
+    <h3 className="font-bold text-[#FFB86C] mb-2">正在实践</h3>
+    <p className="text-gray-600 dark:text-gray-300">一个基于 AI 的代码助手项目</p>
+  </div>
+  
+  <div className="p-4 rounded-lg border border-[#2BAE6630] dark:border-[#2BAE6620]">
+    <h3 className="font-bold text-[#2BAE66] mb-2">正在思考</h3>
+    <p className="text-gray-600 dark:text-gray-300">如何通过 AI 技术提升软件开发效率</p>
+  </div>
+</div>
+
+<div className="mt-12 text-center text-gray-600 dark:text-gray-300 italic">
+  "用技术的力量，创造智能的未来"
+</div>
+
+## 联系我
 
 <CardGroup cols={2}>
   <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
+    title="GitHub"
+    icon="github"
+    href="https://github.com/lixw1994"
   >
-    Customize your docs to your company's colors and brands
+    代码项目
   </Card>
   <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
+    title="Email"
+    icon="envelope"
+    href="mailto:lixianwei1994@gmail.com"
   >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/content/components/accordions"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
+    技术交流
   </Card>
 </CardGroup>
